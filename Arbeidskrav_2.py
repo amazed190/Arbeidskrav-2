@@ -33,7 +33,7 @@ print("Det må kjøpes", antall_pizzaer, "stk pizza")
 
 import numpy as np 
 
-v_grad = float(input("Skriv inn gradtallet"))
+v_grad = float(input("Skriv inn gradtallet:"))
 
 v_rad = v_grad*np.pi/180
 
@@ -54,9 +54,9 @@ land = str(input("Skriv inn et land"))
 print(data[land][0], "er hovedstaden i", land,"og det er", data[land][1],"mill.innbyggere i", data[land][0])
 
 
-nytt_land = str(input("Skriv inn et nytt land"))
-hovedstad = str(input("Skriv inn hovedstaden i landet"))
-innbyggere = float(input("Skriv inn antall milloner innbyggere"))
+nytt_land = str(input("Skriv inn et nytt land:"))
+hovedstad = str(input("Skriv inn hovedstaden i landet:"))
+innbyggere = float(input("Skriv inn antall milloner innbyggere:"))
 
 data[nytt_land]=[hovedstad, innbyggere]
 
